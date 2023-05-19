@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <h1>Vue3 + Eslint + Prettier + cz-git</h1>
-  </div>
+  <HelloWorld></HelloWorld>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import HelloWorld from './components/HelloWorld.vue'
+</script>
 
 <style scoped></style>

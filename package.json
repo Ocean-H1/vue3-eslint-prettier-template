@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "format": "prettier --write .",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && git-cz && git push"
   },
   "config": {
     "commitizen": {
